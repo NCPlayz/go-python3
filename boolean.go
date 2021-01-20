@@ -8,6 +8,7 @@ Copyright 2018 Datadog, Inc.
 package python3
 
 /*
+#cgo LDFLAGS: -lpython3.8
 #include "Python.h"
 #include "macro.h"
 */
